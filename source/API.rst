@@ -20,15 +20,7 @@ Let's go over the concepts we'll cover,
 and then we can talk more about the pages to create.
 
 GET articles/all
-*******************
-
-A lot of these RST syntax examples are covered in the Sphinx :ref:`sphinx:rst-primer`.
-
-.. index::
-   pair: Syntax; Hyperlink
-
-GET articles/list
-********************
+****************
 
 A lot of these RST syntax examples are covered in the Sphinx :ref:`sphinx:rst-primer`.
 
@@ -36,6 +28,39 @@ A lot of these RST syntax examples are covered in the Sphinx :ref:`sphinx:rst-pr
    pair: Syntax; Hyperlink
 
 GET article/id
+**************
+
+A lot of these RST syntax examples are covered in the Sphinx :ref:`sphinx:rst-primer`.
+
+.. index::
+   pair: Syntax; Hyperlink
+
+.. code-block:: json
+
+	{
+		"menu": {
+			"id": "file",
+			"value": "File",
+			"popup": {
+				"menuitem": [
+					{"value": "New", "onclick": "CreateNewDoc()"},
+					{"value": "Open", "onclick": "OpenDoc()"},
+					{"value": "Close", "onclick": "CloseDoc()"}
+				]
+			}
+		}
+	}
+
+GET articles/list
+*****************
+
+A lot of these RST syntax examples are covered in the Sphinx :ref:`sphinx:rst-primer`.
+
+.. index::
+   pair: Syntax; Hyperlink
+   
+
+GET article/search
 ******************
 
 A lot of these RST syntax examples are covered in the Sphinx :ref:`sphinx:rst-primer`.
