@@ -1,22 +1,40 @@
-.. Dataradar.IO documentation master file, created by
-   sphinx-quickstart on Mon Apr 11 19:20:23 2016.
+.. DataRadar.IO API documentation master file, created by
+   sphinx-quickstart on Mon Apr 12 23:44:02 2016.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Dataradar.IO's documentation!
-========================================
+Welcome to DataRadar.IO API's documentation!
+============================================
 
-Contents:
+:Author: Jonathan DEKHTIAR
+:Issues: https://github.com/DEKHTIARJonathan/Dataradar-API-Documentation/issues
+:License: GNU GPL v3
+:Version: |version|
+:Generated: |today|
+
+Introduction
+-------------
+
+**DataRadar.IO** is an **open access** platform created in order to share freely and widely
+ressources concerning data mining, data science, machine learning, computer vision and so on.
+I really hope this platform will become a *must-see* for every student in data science and but
+also for data analysts and data scientists.
+
+In order to widely open access to the ressources, the platform provides an **API** access.
+It's free to use, you just need an API Key which is available upon request at : contact (at) dataradar (dot) io.
+
+If you need any specific method to crawl the platform, feel free to contact,
+I'll be glad to provide some help for your projects.
 
 .. toctree::
-   :maxdepth: 2
+   :hidden:
+   :caption: Introduction
 
+   Home <self>
 
+.. toctree::
+   :hidden:
+   :caption: API Documentation
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   Methods Available <API>
+   crawler/docs/API/index
