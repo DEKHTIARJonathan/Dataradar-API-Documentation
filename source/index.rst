@@ -23,18 +23,25 @@ also for data analysts and data scientists.
 In order to widely open access to the ressources, the platform provides an **API** access.
 It's free to use, you just need an API Key which is available upon request at : contact (at) dataradar (dot) io.
 
-If you need any specific method to crawl the platform, feel free to contact,
+If you need any specific method to crawl the platform, feel free to contact me.
 I'll be glad to provide some help for your projects.
+
+**Our Motto :** *Keep Sharing and Spreading Knowledge*
 
 .. toctree::
    :hidden:
    :caption: Introduction
 
    Home <self>
+   fair_use
 
 .. toctree::
    :hidden:
    :caption: API Documentation
+   :titlesonly:
 
-   Methods Available <API>
-   crawler/docs/API/index
+   General Information <API/api_doc>
+   GET article/id <API/article_id>
+   GET articles/all <API/articles_all>
+   GET articles/list <API/articles_list>
+   GET article/search <API/articles_search>
