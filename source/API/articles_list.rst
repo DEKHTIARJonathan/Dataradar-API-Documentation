@@ -30,6 +30,7 @@ Example Result
 ~~~~~~~~~~~~~~
 
 .. code-block:: json
+
 	{
 		"status": "success",
 		"uri": "/api/v1/articles/list/",
