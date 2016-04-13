@@ -55,13 +55,3 @@ Example Result
 			}
 		]
 	}
-
-
-
-
-
-.. code-block:: shell
-
-		curl https://www.dataradar.io/api/v1/articles/all/?APIKey=00000000-0000-0000-0000-000000000000&
-
-Output
