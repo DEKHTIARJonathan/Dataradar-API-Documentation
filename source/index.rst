@@ -21,7 +21,7 @@ I really hope this platform will become a *must-see* for every student in data s
 also for data analysts and data scientists.
 
 In order to widely open access to the ressources, the platform provides an **API** access.
-It's free to use, you just need an API Key which is available upon request at : contact (at) dataradar (dot) io.
+It's free to use, you just need an API Key which is available upon request at : contact@dataradar.io
 
 If you need any specific method to crawl the platform, feel free to contact me.
 I'll be glad to provide some help for your projects.
