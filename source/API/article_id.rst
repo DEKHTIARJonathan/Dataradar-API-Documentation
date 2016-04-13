@@ -7,11 +7,11 @@ The Article will be returned in JSON with the following data: title, id, domain 
 
 Resource URL
 ~~~~~~~~~~~~
-**https://www.dataradar.io/api/v1/articles/id/**
+**https://www.dataradar.io/api/v1/article/id/**
 
 .. code-block:: shell
 
-		curl https://www.dataradar.io/api/v1/articles/id/?APIKey=00000000-0000-0000-0000-000000000000&id=XXXXX
+		curl https://www.dataradar.io/api/v1/article/id/?APIKey=00000000-0000-0000-0000-000000000000&id=XXXXX
 
 Parameters
 ~~~~~~~~~~
@@ -32,7 +32,7 @@ Example Result
 
 	{
 		"status":"success",
-		"uri":"/api/v1/articles/id/",
+		"uri":"/api/v1/article/id/",
 		"status_code":"200",
 		"output":{
 			"id": "24",
