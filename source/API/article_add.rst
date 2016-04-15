@@ -22,6 +22,16 @@ Resource URL
 
 		curl -H "Content-Type: application/json" -X POST -d '{"APIKey":"00000000-0000-0000-0000-000000000000","link":"http://example.com", "title":"My Super Article"}' https://www.dataradar.io/api/v1/article/add/
 
+Here is the JSON given as input in a more readable manner:
+		
+.. code-block:: json
+		
+	{
+	  "APIKey":"00000000-0000-0000-0000-000000000000",
+	  "link":"http://www.example.com", 
+	  "title":"My Super Article"
+	}		
+		
 Parameters
 ~~~~~~~~~~
 
